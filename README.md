@@ -2,8 +2,8 @@
 ## Installation
 ```shell
     git clone https://github.com/jonazarov/filament-test.git MyNewApp
-    composer update
     copy .env.example .env
+    composer update
     php artisan key:generate
 ```
 * Check DB-Config in .env and create db
